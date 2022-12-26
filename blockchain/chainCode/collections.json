@@ -1,0 +1,11 @@
+[
+    {
+      "name": "CollectionOrder",
+      "policy": "OR('producer-tnt-com.member', 'wholesaler-tnt-com.member')",
+      "requiredPeerCount": 1,
+      "maxPeerCount": 1,
+      "blockToLive": 1000000,
+      "memberOnlyRead": true
+    }
+  ]
+  

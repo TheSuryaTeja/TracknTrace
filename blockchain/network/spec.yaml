@@ -1,0 +1,25 @@
+#Producer, Supplier, Wholesaler and Retailer.
+
+fabric:
+  cas:
+    - "ca1.producer.tnt.com"
+    - "ca1.supplier.tnt.com"
+    - "ca1.wholesaler.tnt.com"
+    - "ca1.retailer.tnt.com"
+  peers:
+    - "peer1.producer.tnt.com"
+    - "peer1.supplier.tnt.com"
+    - "peer1.wholesaler.tnt.com"
+    - "peer1.retailer.tnt.com"
+  orderers:
+    - "orderer1.tnt.com"
+    - "orderer2.tnt.com"
+    - "orderer3.tnt.com"
+    - "orderer4.tnt.com"
+  settings:
+    ca:
+      FABRIC_LOGGING_SPEC: DEBUG
+    peer:
+      FABRIC_LOGGING_SPEC: DEBUG
+    orderer:
+      FABRIC_LOGGING_SPEC: DEBUG
