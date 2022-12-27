@@ -13,13 +13,13 @@ npm, node.js, minifab, Docker, VScode, IBM Blockchain Extension.
 
 > **Start the network**
 
-Head to /blockchain/network and start the network
+Head to /blockchain/network and start the network with the following command
 
 ```bash
 bash startNetwork.sh
 ```
 
-After successful executing, a directory names vars will be created with all network config files.
+After successful execution, a directory names vars will be created with all network config files.
 
 
 > **Deploy the chaincode**
