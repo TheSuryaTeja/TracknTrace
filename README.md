@@ -49,7 +49,7 @@ npm install
 npm start
 ```
 
-> **Frontend**
+> **Output**
 
 Project will be live at [http://localhost:3000](http://localhost:3000)
 
