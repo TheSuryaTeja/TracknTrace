@@ -27,7 +27,7 @@ After successful execution, a directory named **vars** will be created with all 
 * Open VScode and switch to IBM Blockchain Extension.
 * Setup all the wallets from **/network/vars/profiles/vscode/wallets**.
 * Setup environment from **/network/vars/profiles/vscode/vscodenodefile.json**.
-* Package and Deploy the chaincode.
+* Package and Deploy the chaincode. (after npm install in chainccode directory)
 
  #### Client Setup
 
